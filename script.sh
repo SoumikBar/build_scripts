@@ -30,9 +30,9 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch euclid_Mi439_4_19-ap2a-userdebug
+lunch lineage_Mi439_4_19-ap2a-userdebug
 make installclean
 echo "============="
 
 # Build ROM
-m euclid
+mka everest -j$(nproc --all)
