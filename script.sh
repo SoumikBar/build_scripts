@@ -9,7 +9,7 @@ echo "Repo init success"
 echo "=================="
 
 # Local manifests
-git clone https://github.com/SoumikBar/local_manifests -b EuclidOS-14 .repo/local_manifests
+git clone https://github.com/SoumikBar/local_manifests -b ProjectEverest-14 .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
